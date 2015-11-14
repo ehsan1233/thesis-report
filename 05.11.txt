@@ -1,0 +1,7 @@
+The problem with encoding. 
+with mysql 
+http://stackoverflow.com/questions/33334700/issue-with-encoding-tweets-emoticons-with-utf-8
+
+changed to sqlite 
+
+still problem 

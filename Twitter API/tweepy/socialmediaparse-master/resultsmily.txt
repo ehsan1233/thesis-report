@@ -1,0 +1,2 @@
+numrows =  50919
+Number of tweets with smilies = 635

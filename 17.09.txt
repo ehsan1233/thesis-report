@@ -1,0 +1,24 @@
+
+first 11000 tweets doesn't have filtering for language. 
+filter with language:
+ from 14:35 to 15:20 
+
+
+
+on jeb_bush table:
+Solution for exclude RT from tweets
+if not tweet['retweeted'] and 'RT @' not in tweet['text']:
+ 
+Applied from 15:14 to 15:20 
+emptied Jeb_bush and Donald_trump 
+
+
+from tweet number 11691 applied language, excluding retweets, added 200 universities
+
+table name = top200
+
+from 17.9 17:30 to 22.9 12:00 am 
+
+
+
+

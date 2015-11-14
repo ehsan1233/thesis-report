@@ -1,0 +1,25 @@
+extend related work
+
+final :comparision betwwen deffrent classifiers 
+create your frameworks/SA explane how 
+evaluation / casestudy
+
+Golanguage = collecting data
+
+top 50 universities
+In 10 minutes from 18:40 to 18:50
+240 tweets
+
+limitted just to the name of universities, because sometimes MIT has same type with mit 
+problems: how to add universities with NON-ASCII names like france universities - how to seperate RT - how to decrease space 
+streaming started at around 7 pm in Germany. means that it is arount 10 am to 1 pm un USA and around 6 pm to 8 pm in europ. 00:00 to 3:00 am in australia and east asia.  
+from 18:53 to 19:23 
+551 tweets
+
+from 20:50 to 21:20
+374 tweets
+from 21:20 to 21:50
+415 tweets
+
+CREATE TABLE Jeb_Bush( time VARCHAR(20), username VARCHAR(20), tweet TEXT )
+

@@ -1,0 +1,9 @@
+stapped Filtering RT for 200 universities : because in futere maybe the number of RT will be usefull 
+
+database Dumps_tweet table top200r
+
+04.10.2015
+
+started from 18:01 to 21:01 
+
+4500 tweets 

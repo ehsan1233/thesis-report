@@ -1,0 +1,13 @@
+started to look into tweets and count the number of tweets with emoji's 
+it is usefull for labeling data and creating the training set 
+
+according to the 8.11 results we have 
+numrows =  50919
+Number of tweets with smilies = 635
+
+this smilies are just just this list 
+:-) :) :o) :] :3 :c) :> =] 8) =) :} :^) :D 8-D 8D x-D xD X-D XD =-D =D =-3 =3 B^D
+
+we need to extend the list of smilies to find more tweets with them. it increases the number of training set
+
+ 

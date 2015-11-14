@@ -1,0 +1,27 @@
+Started to collect whole tweet and then seperate different parts of it, like text , screen name and ... 
+Because now I don't have a problem with encoding. It is collecting tweets with no intrupption and breaks
+besides, emoticons like :) and :( are not encodes.
+
+the files are in tweepy folder 
+
+started from Sat Nov 07 23:27:55 +0000 2015 to Sun Nov 08 12:33:04 +0000 2015
+13135 tweets 
+
+
+started to use another python library for connecting data to mysql : mysql.connector
+it has possibility to add charset to connection .
+
+cnx = mysql.connector.connect(user='root', password='root',
+                              host='localhost',
+                              database='tweetTable',
+                              charset = 'utf8mb4')
+
+for solving the problem of unseadable emojis and not having breaks in streaming codes, problem solved by using utf8mb4. 
+because . MySQL’s UTF8 only allocates 3 bytes per character, but the whole range of of UTF8 characters, including Emoji, requires 4 bytes.
+MySQL defaults to UTF8 when you create a table, therefore you must specify the character set. 
+The character set we want is utf8mb4. This character set provides 4 bit UTF8 functionality.
+
+it started collecting tweets on 8th November from 8:00 pm to 10th November 8:00 pm
+
+50914 tweeets ( includes RE) 
+
